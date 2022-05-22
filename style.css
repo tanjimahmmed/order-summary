@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E0E8FF;
+}
+img {
+    max-width: 100%;
+}
+.order-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.order-wrapper {
+    width: 362px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.order-description {
+    padding: 30px ;
+}
+
+.order-description h2, .order-description p {
+    text-align: center;
+}
+.order-description h2 {
+    color: #272E50;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.order-description p {
+    color: #9E9EA6;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.order-anual-main {
+    margin-top: 15px;
+    background-color: #F8F9FE;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.anual-left-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anual-price {
+    margin-left: 20px;
+}
+.anual-price h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #131F39;
+    margin-bottom: 7px;
+}
+.anual-price span {
+    color: #8B8F9D;
+    font-size: 16px;
+    font-weight: 500;
+}
+.anual-right a {
+    font-size: 16px;
+    color: #4F459E;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.anual-right a:hover {
+    color: #131F39;
+}
+
+.payment-button {
+    background-color: #382AE1;
+    text-align: center;
+    color: #fff;
+    padding: 13px 12px;
+    display: block;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    box-shadow: 0 8px 12px #DBD9F8;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.payment-button:hover {
+    background-color: #4F459E;
+}
+
+.cancle-button {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #777C8D;
+    font-size: 14px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.cancle-button:hover {
+    color: #000;
+}
